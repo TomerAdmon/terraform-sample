@@ -50,7 +50,6 @@ You will be asked for the password and be provided with a bash command line on t
 |------|---------|
 | aws | >= 4.0.0 |
 | random | >= 3.1.0 |
-|template | >= 2.0.0 |
 
 ## Inputs
 
