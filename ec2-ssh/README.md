@@ -1,6 +1,6 @@
 # AWS EC2 SSH Terraform module
 
-Terraform module which creates an AWS EC2 instance which is accesible via SSH using a username and password.
+Terraform module that creates an AWS EC2 instance which is accesible via SSH using a username and password.
 
 ## Usage
 
@@ -41,7 +41,8 @@ to connect to the instance from a bash command line, enter the following command
 ```
 ssh -o StrictHostKeyChecking=no ubuntu@PUBLIC_IP
 ```
-(note 'ubuntu' is used in the example command line above since the default image is Ubuntu)
+* Note: 'ubuntu' is used in the example command line above since the default image (Ubuntu) is being used.  
+
 You will be asked for the password and be provided with a bash command line on the remote instance.
 
 ## Providers
