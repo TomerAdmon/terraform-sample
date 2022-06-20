@@ -7,5 +7,5 @@ variable "instance_type" {
 variable "ami" {
   description = "(Optional) AMI to use for the instance. Defaults to latest Ubuntu 18.04 LTS."
   type        = string
-  default     = ""
+  default     = "ami-024437e14746c4dcb"
 }
