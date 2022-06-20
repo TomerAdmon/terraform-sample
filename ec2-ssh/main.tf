@@ -63,7 +63,7 @@ resource "random_password" "password" {
 }
 
 resource "aws_instance" "this" {
-  ami             = "ami-270f9747"
+  ami             = "ami-0d70546e43a941d70"
   instance_type   = var.instance_type
   subnet_id       = aws_subnet.this.id
   security_groups = [aws_security_group.allow_ssh.id]
