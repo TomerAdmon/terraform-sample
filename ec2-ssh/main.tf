@@ -55,7 +55,7 @@ resource "aws_security_group" "allow_ssh" {
     ipv6_cidr_blocks = ["::/0"]
   }
 }
-
+# adding a comment
 resource "random_password" "password" {
   length           = 16
   special          = true
